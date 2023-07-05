@@ -1,10 +1,11 @@
 import React from "react";
+import { ContextApi } from "./context/ContextApi.jsx";
 
 function App() {
   return (
-    <div className="uppercase">
-      hello
-    </div>
+    <ContextApi>
+      <div>hello</div>
+    </ContextApi>
   );
 }
 
